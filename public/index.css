@@ -1,0 +1,18 @@
+
+.red {
+  color: red;
+
+}
+
+.header {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  border-style: solid;
+  border-width: 2px;
+}
+
