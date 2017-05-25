@@ -11,7 +11,7 @@ const NavBar = (props) => {
           to="/videos" 
           activeClassName="active"
           activeStyle={{
-            'color': 'green',
+            'color': 'black',
           }}
           style={{
             'color': 'white',
@@ -24,7 +24,7 @@ const NavBar = (props) => {
         <NavLink to="/articles" 
           activeClassName="active"
           activeStyle={{
-            'color': 'green'
+            'color': 'black'
           }}
           style={{
             'color': 'red',

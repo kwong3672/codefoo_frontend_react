@@ -23,6 +23,12 @@ export default (state = {}, action) => {
   case 'TOGGLE_IMAGE':
     var toggleState = {
       ...state,
+      data: state.data.map((data) => {
+        return {
+          ...data,
+          display: 'none'
+        };
+      })
     };
     toggleState.data[action.payload].display = state.data[action.payload].display === 'none' ? 'block' : 'none';
     return toggleState;
