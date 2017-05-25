@@ -7,11 +7,9 @@ export function addVideos(category = 'videos', startIdx = 0, count = 10) {
   };
 }
 
-export function toggleImage(e) {
-  console.log(e)
+export function toggleImage(idx) {
   return {
     type: 'TOGGLE_IMAGE',
-    payload: e
-    // payload: e.target.parentElement.id
+    payload: idx
   };
 }
